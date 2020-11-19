@@ -41,7 +41,7 @@ provider kubernetes {
 }
 
 #LogDna init
-
+/*
 module logging {
     source             = "./modules/log_dna"
     resource_group_id  = data.ibm_resource_group.group.id
@@ -55,7 +55,7 @@ module logging {
     end_points         = "public"
 }
 
-
+*/
 #deploy cassandra using Helm 
   #config helm provider
 provider "helm" {
